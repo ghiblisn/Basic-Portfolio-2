@@ -13,7 +13,7 @@ h3{
 	margin: 0px auto 20px auto;
 }
 body{
-	font:#777777;
+	font-color:#777777;
 	background-image: url("../images/playstation-pattern.png");
 }
 label, a{
@@ -258,6 +258,9 @@ footer{
 	height:100%;
 	margin:20px;
 	padding:0;
+}
+label{
+	float: left;
 }
 }
 
