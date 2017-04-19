@@ -1,0 +1,273 @@
+
+h2{
+	color:#4aaaa5;
+	border-bottom: 3px solid lightgray; 
+	padding-bottom: 20px;
+	margin: 10px 0px 25px 0px;
+}
+h3{
+	color:#4aaaa5;
+	border-bottom: 2px solid lightgray; 
+	width:210px;
+	padding-bottom: 20px;
+	margin: 0px auto 20px auto;
+}
+body{
+	font:#777777;
+	background-image: url("../images/playstation-pattern.png");
+}
+label, a{
+	color:gray;
+	text-decoration: none;
+}
+*{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+input{
+	color:lightgray;
+	text-decoration: none;
+	font-size: 10;	
+	width:100%;
+	padding: 5px;
+	margin-top:5px;
+}
+#messageInput{
+	height:200px;
+}
+#submitButton{
+	background-color:#4aaaa5;
+	color:white;
+	border:1px;
+	width:100px;
+	height:30px;
+	font-size: 14px;
+}
+.tab{
+	width:60px;
+	display: inline-block;
+}
+.tabmiddle{
+	border-right: 2px solid lightgray;
+	border-left: 2px solid lightgray;
+	width:80px;
+}
+#header{
+	clear:both;
+	background:#ffffff;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	height:80px;
+	width:100%;
+	border-bottom: 3px;
+	border-color: lightgray;
+	border-bottom-style:solid;
+}
+#header_content{
+	width: 960px;
+	margin: 0 auto;
+	height:100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.heading{
+	background:#4aaaa5;
+	color:white;
+	width:250px;
+	height:100%;
+	float:left;
+}
+.menu{
+	width:270px;
+	float:right;
+	padding:30px;
+	height:100%;
+}
+.main_content{
+	border-color: #dddddd;
+	clear:both;
+	padding-top:40px;
+	width: 960px;
+	height:500px;
+	margin: 0 auto;
+}
+#aboutme{
+	float:left;
+	width:650px;
+	background:#ffffff;
+	padding:20px;
+	border-color:lightgray;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 100px
+}
+#connectme{
+	float:right;
+	text-align: center;
+	width:270px;
+	background:#ffffff;
+	border-color:lightgray;
+	border-style: solid;
+	border-width: 2px;
+	padding:20px 10px 20px 10px;
+}
+#bio_image{
+	float:left;
+	padding:0px 20px 10px 0px;
+	width:20%;
+	height:20%;
+}
+.leftPortfolioTopic{
+	float:left;
+	width:45%;
+	height:100%;
+	margin: 0px 20px 50px 10px;
+	position:relative;
+}
+.rightPortfolioTopic{
+	float:right;
+	width:45%;
+	height:100%;
+	margin: 0px 10px 50px 20px;
+	position:relative;
+}
+.leftPortfolioPic{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.rightPortfolioPic{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.portfolioPicLabel{
+	background-color:#4aaaa5;
+	color:white;
+	position:absolute;
+	text-align: center;
+	width:100%;
+	bottom: -5px;
+	border-width:0;
+	padding:10px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.connectWithMeIcon{
+	width:70px;
+	height:70px;
+	padding:5px;
+}
+footer{
+	clear:both;
+	background: #666666;
+	padding:15px;
+	text-align: center;
+	color:lightgray;
+	width: 100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	border-top: 10px;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+#header, #header_content{
+    width: 100%;
+}
+.main_content{
+    width: 100%;
+    padding: 20px;
+}
+#aboutme{
+	clear:both;
+	width: 100%;
+    padding: 20px;
+}
+#connectme{
+	clear:both;
+	width: 100%;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+#bio_image{
+	width:40%;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+#header, #header_content{
+    width: 100%;
+}
+.heading{
+	background:#4aaaa5;
+	color:white;
+	width:50%;
+	height:100%;
+	float:left;
+}
+.menu{
+	width:50%;
+	float:right;
+	height:100%;
+	padding:10px 10px 10px 100px;
+}
+.tab{
+	width:30%;
+	display: table-row;
+	text-align: center;
+}
+.tabmiddle{
+	border:0;
+	width:30%;
+	text-align: center;
+}
+.main_content{
+    width: 100%;
+    padding: 20px;
+}
+#aboutme{
+	clear:both;
+	width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+#connectme{
+	clear:both;
+	width: 100%;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+.leftPortfolioTopic{
+	float:left;
+	width:80%;
+	height:100%;
+	margin:20;
+	margin:20px;
+	padding:0;
+}
+.rightPortfolioTopic{
+	float:left;
+	width:80%;
+	height:100%;
+	margin:20px;
+	padding:0;
+}
+}
+
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+ 
+}
+
+
