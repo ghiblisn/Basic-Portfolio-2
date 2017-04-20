@@ -174,8 +174,11 @@ footer{
 
 /* Media queries */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 
+#bio_image{
+	width:100%;
+}
 #header, #header_content{
     width: 100%;
 }
@@ -184,19 +187,35 @@ footer{
     padding: 20px;
 }
 #aboutme{
-	clear:both;
-	width: 100%;
+	width: 60%;
     padding: 20px;
 }
 #connectme{
-	clear:both;
-	width: 100%;
+	width: 30%;
     padding: 20px;
     margin-bottom: 200px;
 }
-#bio_image{
-	width:40%;
+h3{
+	width:100%;
 }
+.connectWithMeIcon{
+	width:30%;
+	height:30%;
+}
+.leftPortfolioTopic{
+	float:left;
+	width:80%;
+	height:100%;
+	margin:20;
+	margin:20px;
+	padding:0;
+}
+.rightPortfolioTopic{
+	float:left;
+	width:80%;
+	height:100%;
+	margin:20px;
+	padding:0;
 }
 
 
@@ -211,22 +230,6 @@ footer{
 	width:50%;
 	height:100%;
 	float:left;
-}
-.menu{
-	width:50%;
-	float:right;
-	height:100%;
-	padding:10px 10px 10px 100px;
-}
-.tab{
-	width:30%;
-	display: table-row;
-	text-align: center;
-}
-.tabmiddle{
-	border:0;
-	width:30%;
-	text-align: center;
 }
 .main_content{
     width: 100%;
@@ -244,6 +247,61 @@ footer{
     padding: 20px;
     margin-bottom: 200px;
 }
+#bio_image{
+	float:left;
+	padding:0px 20px 10px 0px;
+	width:20%;
+	height:
+}
+label{
+	float: left;
+}
+.connectWithMeIcon{
+	width:70px;
+	height:70px;
+	padding:5px;
+}
+.leftPortfolioTopic{
+	float:left;
+	width:40%;
+	height:100%;
+	margin: 0px 20px 50px 10px;
+	position:relative;
+}
+.rightPortfolioTopic{
+	float:right;
+	width:40%;
+	height:100%;
+	margin: 0px 10px 50px 20px;
+	position:relative;
+}
+
+@media screen and (max-width: 640px) {
+
+.heading{
+	width:100%;
+}
+.menu{
+	clear:both;
+	width:100%;
+	float:right;
+	height:100%;
+	background:white;
+}
+.tab{
+	width:30%;
+}
+.tabmiddle{
+	width:30%;
+}
+.connectWithMeIcon{
+	width:70px;
+	height:70px;
+	padding:5px;
+}
+#bio_image{
+	width:100%;
+}
 .leftPortfolioTopic{
 	float:left;
 	width:80%;
@@ -259,18 +317,6 @@ footer{
 	margin:20px;
 	padding:0;
 }
-label{
-	float: left;
-}
-}
-
-/* Width at 320px and below */
-@media screen and (max-width: 320px) {
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
- 
 }
 
 
